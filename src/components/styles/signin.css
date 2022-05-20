@@ -1,0 +1,21 @@
+.main
+{
+    text-align: center;
+}
+.main .input
+{
+    width: 20rem;
+    height: 2rem;
+}
+.main .input-button
+{
+    width: 20.55rem;
+    height: 2rem;
+    background-color:rgb(255, 0, 0);
+    color:white;
+    border:none;
+}
+.main .log
+{
+    height: 5rem;
+}

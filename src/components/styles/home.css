@@ -1,0 +1,92 @@
+.sub-heading
+{
+    padding-left: 0.5rem;
+
+}
+.home-main .logo
+{
+    width:100%;
+}
+.home-main .button
+{
+    height:2rem;
+    width:7rem;
+    background-color:rgb(255, 0, 0);
+    color:white;
+    border:none;
+}
+
+.home-main {
+    position: relative;
+}
+.home-main .hero-statements
+{
+    text-align:center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color:white;
+}
+.feature-statements
+{
+    height:25rem;
+    background-color:rgb(255, 0, 0);
+    padding:0 2rem 0 2rem;
+}
+.feature-statements .quoates
+{
+    color: white;
+}
+.feature-statements .top-statements
+{
+    text-align: center;
+    padding-top: 3rem;
+    color:white;
+}
+.feature-statements .icons
+{
+    display: flex;
+    justify-content: space-between;
+}
+.feature-statements .icons .icon
+{
+    height: 4rem;   
+    width: 4.5rem;
+
+}
+.product-statement{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 2rem 0 2rem ;
+}
+.product-statement .trending-main
+{
+    padding-bottom: 3rem;
+}
+.product-statement .trending-main .product-image
+{
+    
+    width: 20rem;
+    height: 15rem;
+}
+.product-statement .trending-main .product-title
+{
+    padding-left: 3rem;
+}
+.product-statement .trending-main .product-rate
+{
+    padding-left: 3rem;
+}
+.product-statement .trending-main .product-button
+{
+    width: 20rem;
+    height: 2rem;
+    background-color: white;
+    border:0.02rem solid red;
+    margin-left: 1rem;
+    color:red;
+    font-weight: 500;
+}

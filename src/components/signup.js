@@ -1,5 +1,6 @@
 import logo from './assets/HR LOGO 1.png';
 import './styles/signin.css';
+import './styles/login.css';
 import Navbar from './navbar';
 function App() {
   return (
@@ -29,8 +30,7 @@ function App() {
       <button class='input-button'>Log in with phone number</button>
       <br></br>
       <p>or</p>
-      <p>New to hari ram motors ? <a>New account</a></p>
-      
+      <p>Already have an account ? <a class="link"  onClick={event =>  window.location.href='/login'} >login</a></p>
     </div>
     </>
   );

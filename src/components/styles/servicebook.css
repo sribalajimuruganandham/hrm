@@ -1,0 +1,51 @@
+.bookservice{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:0 2rem 0 1rem;
+}
+.bookservice-top{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 2rem 0 2rem;
+}
+.bookservice .profile{
+    height:3rem;
+    width: 3rem;
+
+}
+.bookservice .username{
+    padding-right: 1rem;
+}
+.bookservice .hero{
+    height:20rem;
+    background-color: red;
+    position:relative;
+}
+.bookservice .hero-statement{
+    position:absolute;
+    left:0;
+    bottom:0;
+    color:white;
+    padding-left:1rem;
+}
+.bookservice .item
+{
+    text-align:center;
+}
+.bookservice .item .description
+{
+    font-size:1.5rem;
+}
+.bookservice .button{
+    height:3rem;
+    width:10rem;
+    border:0px solid red;
+    border-radius:1rem;
+    background-color: red;
+    color:white;
+    font-weight: bold;
+}
+.bookservice .picture{
+    height:20rem;
+    width:30rem;
+}

@@ -2,6 +2,7 @@ import { useState } from "react";
 import logo from "./assets/glamour-bs6-home 1.png";
 import "./styles/home.css";
 import Navbar from "./navbar";
+import Footer from "./footer";
 import contact from "./assets/contact.png"
 import emi from "./assets/emi.png"
 import delivery from "./assets/delivery.png"
@@ -13,6 +14,7 @@ function App() {
   const [featureIcons,setFeatureIcons]=new useState([contact,emi,delivery,deal]);
   const [featureCount,setFeatureCount]=new useState([0,1,2,3]);
   const [productCount,setProductCount]=new useState([0,1,2,3]);
+
   return (
     <>
       <Navbar />
@@ -21,7 +23,7 @@ function App() {
         <br></br>
         <div class="hero-statements">
           <h1>Buy your partner with great deals</h1>
-          <button class="button">Buy now</button>
+          <button class="button" >Buy now</button>
         </div>
       </div>
       <h2 class="sub-heading">RECENT TRENDS</h2>
@@ -56,13 +58,10 @@ function App() {
           )}
           </div>    
       </div>
-      <div>
-        <img src={ad}></img>
-        <div>
-          <h1>MOST BEAUTIFULL BIKES FOR MENS</h1>
-          <p>Most commonly used bikes and It is budget friendly</p>
-        </div>
-      </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <Footer/>
     </>
   );
 }

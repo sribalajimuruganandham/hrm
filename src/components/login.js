@@ -18,10 +18,10 @@ function App() {
       <br></br>
       <br></br>
       <br></br>
-      <button class='input-button'>Log in with phone number</button>
+      <button class='input-button'  onClick={event =>  window.location.href='/servicebook'} >Log in with phone number</button>
       <br></br>
       <p>or</p>
-      <p>New to hari ram motors ? <a>New account</a></p>
+      <p>New to hari ram motors ? <a onClick={event =>  window.location.href='/signup'} class="link">New account</a></p>
     </div>
     </>
   );

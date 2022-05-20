@@ -1,6 +1,5 @@
 import logo from './assets/Hero Logo 2.png';
 import './styles/navbar.css';
-
 function App() {
   return (
     <div class='navbar-main'>
@@ -9,7 +8,7 @@ function App() {
         <p>EXPLORE</p>
         <p>CONTACT</p>
         <p>ABOUT US</p>
-        <button class='login-button'>Log in</button>
+        <button class='login-button' onClick={event =>  window.location.href='/login'}>Log in</button>
     </div>
   );
 }

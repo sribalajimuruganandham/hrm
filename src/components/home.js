@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "./assets/glamour-bs6-home 1.png";
+import logo from "./assets/glamour-bs6-home 1.gif";
 import "./styles/home.css";
 import Navbar from "./navbar";
 import Footer from "./footer";

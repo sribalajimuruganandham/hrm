@@ -90,3 +90,38 @@
     color:red;
     font-weight: 500;
 }
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home{
+    background-color:#C4C4C4;
+    height:20rem;
+    /* text-align:center;    */
+}
+.home .logo
+{
+    height : 6.5rem;
+    width : 5.7rem;
+}
+.home .head
+{
+    display: flex;
+    align-items: center;
+}
+.home .button{
+    height:3rem;
+    width:10rem;
+    border:0px solid red;
+    border-radius:1rem;
+    background-color: red;
+    color:white;
+    font-weight: bold;
+}
+.home .hero-sub{
+padding:0%;
+margin:0%;
+}
+.home .hero{
+    padding:0%;
+    margin:0%;
+}

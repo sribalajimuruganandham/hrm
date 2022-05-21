@@ -34,6 +34,16 @@ function App() {
       <div class="home-main">
         <img src={logo} class="logo"></img>
         <br></br>
+        <div class="home">
+        <div class="head">
+            <img src="./assets/logo.png" class="logo"></img>
+            <div>
+                <h1 class="hero">HARI RAM MOTORS</h1>
+                <h3 class="hero-sub">The Hero Showroom</h3>
+            </div>
+        </div>
+        <button type="button" class="button">Click Here</button>
+    </div>
         <div class="hero-statements">
           <h1>Buy your partner with great deals</h1>
           <button class="button">Buy now</button>
@@ -41,6 +51,7 @@ function App() {
       </div>
       <h2 class="sub-heading">RECENT TRENDS</h2>
       <div class="product-statement">
+        
         {productCount.map((e) => {
           return (
             <div class="trending-main">

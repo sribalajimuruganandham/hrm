@@ -14,7 +14,7 @@ function App() {
   const [featureIcons,setFeatureIcons]=new useState([contact,emi,delivery,deal]);
   const [featureCount,setFeatureCount]=new useState([0,1,2,3]);
   const [productCount,setProductCount]=new useState([0,1,2,3]);
-
+  // hi this from tanuj lap
   return (
     <>
       <Navbar />

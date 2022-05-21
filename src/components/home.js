@@ -27,7 +27,7 @@ function App() {
   // hi this from tanuj lap
   //this is from sri laptop
 
-  //balaji
+  //tanuj
   return (
     <>
       <Navbar />
